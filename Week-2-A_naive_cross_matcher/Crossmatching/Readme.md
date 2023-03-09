@@ -70,5 +70,5 @@ print(len(no_matches))
 [(1, 2, 0.00010988610938710059), (2, 4, 0.00076498459672424946), (3, 5, 0.00020863352870707666)]
 [5, 6, 11]
 40
-​~~~
+~~~
 Now 40 objects have no match with the tighter search radius.
