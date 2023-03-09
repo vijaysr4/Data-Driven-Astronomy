@@ -55,7 +55,7 @@ print(len(no_matches))
 [(1, 2, 0.00010988610938710059), (2, 4, 0.00076498459672424946), (3, 5, 0.00020863352870707666)]
 [5, 6, 11]
 9
-​~~~
+~~~
 Only 9 objects have no match. Let's try a 5 arcsecond maximum:
 ~~~
 bss_cat = import_bss()
