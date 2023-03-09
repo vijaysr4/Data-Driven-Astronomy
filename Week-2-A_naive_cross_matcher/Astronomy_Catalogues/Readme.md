@@ -62,7 +62,7 @@ cat = np.loadtxt('super.csv', delimiter=',', skiprows=1, usecols=[0, 1])
 print(cat)
 ~~~
 
-Problem:
+**Problem:**
 
 Write import_bss and import_super functions that import the AT20G BSS and SuperCOSMOS catalogues from the files bss.dat and super.csv as described in the previous slides.
 
