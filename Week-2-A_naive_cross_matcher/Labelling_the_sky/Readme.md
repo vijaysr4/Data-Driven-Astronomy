@@ -25,22 +25,22 @@ Right ascension is often given in hours-minutes-seconds (HMS) notation, because 
 Each hour is split into 60 minutes and each minute into 60 seconds.
 
 You can convert 23 hours, 12 minutes and 6 seconds (written as 23:12:06 or 23h12m06s) to degrees like this:
-
+```
 print(15*(23 + 12/60 + 6/(60*60)))
 348.025
-
+```
 Declination, on the other hand, is traditionally recorded in degrees-minutes-seconds (DMS) notation. A full circle is 360 degrees, each degree has 60 arcminutes and each arcminute has 60 arcseconds.
 
 For example: 73 degrees, 21 arcminutes and 14.4 arcseconds (written 73:21:14.4 or 73° 21' 14.4" or 73d21m14.4s) can be converted to decimal degrees like this:
-
+```
 print(73 + 21/60 + 14.4/(60*60))
 73.354
-
+```
 With negative angles like -5° 31' 12" the negation applies to the whole angle, including arcminutes and arcseconds:
-
+```
 print(-1*(5 + 31/60 + 12/(60*60)))
 -5.52
-
+```
 Problem:
 Write two functions, one that converts right ascension from HMS to decimal degrees, called hms2dec, and another that converts declination from DMS to decimal degrees, called dms2dec.
 
@@ -48,14 +48,19 @@ Right ascension is always an angle from 0 to 24 hours and declination is always 
 
 Your hms2dec function should work like this:
 
->>> hms2dec(23, 12, 6)
+```
+hms2dec(23, 12, 6)
 348.025
-
+```
 And your dms2dec function should work like this:
 
->>> dms2dec(22, 57, 18)
+```
+dms2dec(22, 57, 18)
 22.955
+```
 It should also work with negative angles:
 
->>> dms2dec(-66, 5, 5.1)
+```
+dms2dec(-66, 5, 5.1)
 -66.08475
+```
